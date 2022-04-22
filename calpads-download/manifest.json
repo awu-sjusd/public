@@ -1,0 +1,16 @@
+{
+  "name": "Calpads",
+  "description": "Shows some of the features of the Context Menus API",
+  "version": "0.6",
+  "permissions": [
+    "contextMenus",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://www.calpads.org/"
+  ],
+  "background": {
+    "service_worker": "calpads.js"
+  },
+  "manifest_version": 3
+}
